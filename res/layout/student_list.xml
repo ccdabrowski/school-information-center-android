@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#505050"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/ImageView01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/splash"
+        android:textSize="12px"
+        android:text="Welcome School Infomration Center - By Shandilya Software Technology.\n
+        List of Students in Class and Section wise \n
+        Class B.Tech \n
+              Section CS \n
+              Section IT \n
+              Section EC \n
+        Class M.Tech \n
+        	  Section CS \n
+              Section IT \n
+              Section EC \n
+       Class M.B.B.S \n
+        	  Section Gen \n
+              Section ET \n
+              Section Ortho\n"
+      />
+
+ 
+
+</LinearLayout>
