@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#505050"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/ImageView01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/splash"
+        android:textSize="12px"
+        android:text="Welcome School Infomration Center - By Shandilya Software Technology. Here you will get all  the informaiton about School like Class schedule, Exam Schedule, Info or News, You can do Online exam, You can get the student list class wise and section wise, Teacher list by subject wise and wifi teacher attendance, when teacher will come into wifi, automatic information will go the attendance table" 
+      />
+
+    <GridView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/SocialNetworkingImageGrid"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:columnWidth="90dp"
+        android:gravity="center"
+        android:horizontalSpacing="10dp"
+        android:numColumns="auto_fit"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="10dp" />
+
+</LinearLayout>

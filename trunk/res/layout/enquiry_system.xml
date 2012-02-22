@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#505050"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/ImageView01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/splash"
+        android:textSize="12px"
+        android:text="Welcome School Infomration Center - By Shandilya Software Technology. \n
+        What you wanted about US \n
+        Plz contact at info@xyz.com \n
+        Phone no  - 80-12345678 \n
+        Mobile no - 91-99999999" 
+      />
+
+   
+</LinearLayout>
